@@ -1,7 +1,9 @@
 <div align="center">
 
-<a href="https://disscount.me"><img src="./assets/hero-dark.svg#gh-dark-mode-only" alt="Jakov Jakovac. Full-stack and DevOps engineer. I build products and keep them running." width="100%"></a>
-<a href="https://disscount.me"><img src="./assets/hero-light.svg#gh-light-mode-only" alt="Jakov Jakovac. Full-stack and DevOps engineer. I build products and keep them running." width="100%"></a>
+<a href="https://disscount.me"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <img src="./assets/hero-light.svg" alt="Jakov Jakovac. Full-stack and DevOps engineer. I build products and keep them running." width="100%">
+</picture></a>
 
 <a href="https://disscount.me">disscount.me</a>
 
@@ -13,21 +15,27 @@ I'm Jakov, a full-stack and DevOps engineer from Croatia. I'm doing an MSc in Co
 
 <div align="center">
 
-<img src="./assets/terminal-dark.svg#gh-dark-mode-only" alt="Terminal session: whoami, cat stack.txt, ./now" width="560">
-<img src="./assets/terminal-light.svg#gh-light-mode-only" alt="Terminal session: whoami, cat stack.txt, ./now" width="560">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-dark.svg">
+  <img src="./assets/terminal-light.svg" alt="Terminal session: whoami, cat stack.txt, ./now" width="560">
+</picture>
 
 </div>
 
 ## Selected work
 
 <p align="center">
-<a href="https://disscount.me"><img src="./assets/cards/disscount-dark.svg#gh-dark-mode-only" alt="Disscount: compares grocery prices across 29 Croatian chains and shows price history. Double gold, INOVA." width="480"></a>
-<a href="https://disscount.me"><img src="./assets/cards/disscount-light.svg#gh-light-mode-only" alt="Disscount: compares grocery prices across 29 Croatian chains and shows price history. Double gold, INOVA." width="480"></a>
+<a href="https://disscount.me"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/disscount-dark.svg">
+  <img src="./assets/cards/disscount-light.svg" alt="Disscount: compares grocery prices across 29 Croatian chains and shows price history. Double gold, INOVA." width="480">
+</picture></a>
 </p>
 
 <p align="center">
-<a href="https://github.com/OffCrazyFreak/Creative-Cluster"><img src="./assets/cards/creative-cluster-dark.svg#gh-dark-mode-only" alt="Creative Cluster: two public map sites share one React codebase." width="480"></a>
-<a href="https://github.com/OffCrazyFreak/Creative-Cluster"><img src="./assets/cards/creative-cluster-light.svg#gh-light-mode-only" alt="Creative Cluster: two public map sites share one React codebase." width="480"></a>
+<a href="https://github.com/OffCrazyFreak/Creative-Cluster"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/creative-cluster-dark.svg">
+  <img src="./assets/cards/creative-cluster-light.svg" alt="Creative Cluster: two public map sites share one React codebase." width="480">
+</picture></a>
 </p>
 
 ## Activity
@@ -36,8 +44,10 @@ I'm Jakov, a full-stack and DevOps engineer from Croatia. I'm doing an MSc in Co
 
 <img src="./assets/generated/contrib-3d.svg" alt="3D view of my contributions over the last year" width="100%">
 
-<img src="./assets/generated/snake-dark.svg#gh-dark-mode-only" alt="A snake eating my contribution graph" width="100%">
-<img src="./assets/generated/snake.svg#gh-light-mode-only" alt="A snake eating my contribution graph" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/snake-dark.svg">
+  <img src="./assets/generated/snake.svg" alt="A snake eating my contribution graph" width="100%">
+</picture>
 
 </div>
 
