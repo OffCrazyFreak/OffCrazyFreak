@@ -5,8 +5,6 @@
   <img src="./assets/hero-light.svg" alt="Jakov Jakovac. Full-stack and DevOps engineer. I build products and keep them running." width="100%">
 </picture></a>
 
-<a href="https://disscount.me">disscount.me</a>
-
 </div>
 
 <br>
