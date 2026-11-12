@@ -14,9 +14,9 @@ text{font-family:'OCMono',ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation
 .fade{animation:fade .8s ease .1s backwards}
 .ch{animation:ch .01s linear backwards}
 .shine{animation:shine 7s ease-in-out 2.4s infinite}
-.bob1{animation:bob 5s ease-in-out infinite alternate}
-.bob2{animation:bob 5s ease-in-out -1.7s infinite alternate}
-.bob3{animation:bob 5s ease-in-out -3.4s infinite alternate}
+.bob1{animation:bob 3.85s ease-in-out infinite alternate}
+.bob2{animation:bob 3.85s ease-in-out -1.3s infinite alternate}
+.bob3{animation:bob 3.85s ease-in-out -2.6s infinite alternate}
 .flow{stroke-dasharray:4 10;animation:flow 1.4s linear infinite}
 .caret{fill-opacity:0;animation:cursor 1.05s steps(1) 2.4s infinite}
 .stackline{opacity:0;font-size:22px;font-weight:400;fill:var(--muted)}

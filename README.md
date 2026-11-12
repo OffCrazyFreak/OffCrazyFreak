@@ -1,8 +1,8 @@
 <div align="center">
 
 <a href="https://disscount.me"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <img src="./assets/hero-light.svg" alt="Jakov Jakovac. Full-stack and DevOps engineer. I build products and keep them running." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg?v=2">
+  <img src="./assets/hero-light.svg?v=2" alt="Jakov Jakovac. Full-stack and DevOps engineer. I build products and keep them running." width="100%">
 </picture></a>
 
 </div>
