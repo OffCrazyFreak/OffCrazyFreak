@@ -27,9 +27,9 @@ I'm Jakov, a full-stack and DevOps engineer from Croatia. I'm doing an MSc in Co
 </picture></a>
 </p>
 
-## Let's talk
+## Let's talk [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jakov%20Jakovac-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jakov-jakovac)
 
-Open to engineering roles in Switzerland, Denmark, Luxembourg, the Netherlands, Austria and Germany. Try what I built at [disscount.me](https://disscount.me).
+Open to engineering roles in Switzerland, Denmark, Luxembourg, the Netherlands, Austria and Germany.
 
 ## Activity
 
