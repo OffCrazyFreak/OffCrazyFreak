@@ -1,0 +1,60 @@
+name: Generated visuals
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: visuals
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/generated/snake.svg
+            assets/generated/snake-dark.svg?palette=github-dark
+
+      - name: Move the 3D graph next to the snake
+        run: |
+          mkdir -p assets/generated
+          mv profile-3d-contrib/profile-night-view.svg assets/generated/contrib-3d.svg
+          rm -rf profile-3d-contrib
+
+      - name: Commit when the images changed
+        run: |
+          git add assets/generated
+          if git diff --cached --quiet; then
+            echo "Images unchanged"
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "chore(profile): refresh generated visuals"
+          git push
+
+  # A bot commit does not reset GitHub's 60 day inactivity rule for schedules; this re-enables the schedule through the API instead.
+  keepalive:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: liskin/gh-workflow-keepalive@f72ff1a1336129f29bf0166c0fd0ca6cf1bcb38c # v1.2.1
