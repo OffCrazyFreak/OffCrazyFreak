@@ -13,15 +13,6 @@
 
 I'm Jakov, a full-stack and DevOps engineer from Croatia. I'm doing an MSc in Computing at FER Zagreb and studying at TU Graz. I founded [Disscount](https://disscount.me), a live grocery price comparison for Croatia that won a double gold at INOVA, and I run it myself, from the Spring Boot API to the Docker deploy.
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-dark.svg">
-  <img src="./assets/terminal-light.svg" alt="Terminal session: whoami, cat stack.txt, ./now" width="560">
-</picture>
-
-</div>
-
 ## Selected work
 
 <p align="center">
@@ -38,6 +29,10 @@ I'm Jakov, a full-stack and DevOps engineer from Croatia. I'm doing an MSc in Co
 </picture></a>
 </p>
 
+## Let's talk
+
+Open to engineering roles in Switzerland, Denmark, Luxembourg, the Netherlands, Austria and Germany. Try what I built at [disscount.me](https://disscount.me).
+
 ## Activity
 
 <div align="center">
@@ -50,7 +45,3 @@ I'm Jakov, a full-stack and DevOps engineer from Croatia. I'm doing an MSc in Co
 </picture>
 
 </div>
-
-## Let's talk
-
-Open to engineering roles in Switzerland, Denmark, Luxembourg, the Netherlands, Austria and Germany. Try what I built at [disscount.me](https://disscount.me).
